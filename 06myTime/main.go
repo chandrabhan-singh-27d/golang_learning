@@ -19,3 +19,6 @@ func main() {
 	fmt.Println(createdDate)
 	fmt.Println(createdDate.Format("01-02-2006 Monday"))
 }
+
+//build can be made for any platform(os) - the command for that can be seen from go env
+//to build an executable file for a different os than your current env we can do it as GOOS="osname" go build where osname=windows or linux or darwin(for mac)
