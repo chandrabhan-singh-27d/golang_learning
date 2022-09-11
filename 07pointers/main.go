@@ -13,7 +13,7 @@ func main() {
 
 	//referencing a pointer
 	myNumber := 89
-	var ptr = &myNumber
+	var ptr = &myNumber //& means reference or address of operator
 	fmt.Println("The value of the pointer is", ptr)
 	fmt.Println("The value of the refernced variable is", *ptr)
 
