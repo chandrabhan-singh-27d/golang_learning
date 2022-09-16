@@ -36,5 +36,5 @@ func (u User) ResetEmail() {
 		do something
 	}
 3. The structs are passed as a copy and not the actual values thus we have pointers designed.
-4. Whenever we want to pass the actual reference of the structs we should pass them as the reference variables and not the actual values
+4. Whenever we want to pass the actual reference of the structs we should pass them as the reference variables and not the actual values.
 */
