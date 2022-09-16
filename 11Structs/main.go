@@ -20,4 +20,5 @@ type User struct {
 	Email      string
 	IsVerified bool
 	Age        int
+	//oneAge     int //not exportable as the first letter need to be capital
 }
