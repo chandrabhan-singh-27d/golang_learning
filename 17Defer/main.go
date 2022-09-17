@@ -18,6 +18,6 @@ func deferFunc() {
 }
 
 /*
-1. The defer keyword defer the statement at put it at the end of the function same as we defer the script in html.
+1. The defer keyword defer the statement and put it at the end of the function same as we defer the script in html.
 2. When we have multiple defer statements the LIFO model will be applied.
 */
